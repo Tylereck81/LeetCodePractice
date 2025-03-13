@@ -1,11 +1,11 @@
 def isValid(s: str) -> bool: 
     stack = []
     for i in range(len(s)): 
+        stack.append(s[i])
         if len(stack)-1 >= 0:
             top = stack[len(stack)-1]
         else: 
             top = 0
-        stack.append(s[i])
         if s[i] == ')'  and top== '(':
             stack.pop()
             stack.pop()
