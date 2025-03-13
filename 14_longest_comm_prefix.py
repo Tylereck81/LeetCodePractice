@@ -1,4 +1,5 @@
 
+
 def longestCommonPrefix(strs: list[str]) ->str:
     #length of shortest string
     n = 10000
@@ -18,7 +19,6 @@ def longestCommonPrefix(strs: list[str]) ->str:
         if flag == 0:
             break
         c = i
-        print(c)
     
     if c!=-1:
         return strs[index][:c+1]

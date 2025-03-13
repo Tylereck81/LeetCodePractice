@@ -1,0 +1,21 @@
+def isValid(s: str) -> bool: 
+    stack = []
+    for i in range(len(s)): 
+        if len(stack)-1 >= 0:
+            top = stack[len(stack)-1]
+        else: 
+            top = 0
+        stack.append(s[i])
+        if s[i] == ')'  and top== '(':
+            stack.pop()
+            stack.pop()
+        elif s[i] == ']' and top== '[': 
+            stack.pop()
+            stack.pop()
+        elif s[i] == '}' and top == '{': 
+            stack.pop()
+            stack.pop()
+        
+    return (len(stack) == 0)
+
+print(isValid("([)"))
