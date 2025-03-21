@@ -20,8 +20,7 @@ def isSymmetric(root: TreeNode):
     return traverse(root.left,root.right)
 
 
-l1 = TreeNode(1,TreeNode(2,TreeNode(3),TreeNode(4)),TreeNode(2,TreeNode(4),TreeNode(3)))
-# l1 = TreeNode(1,TreeNode(2,None,TreeNode(3)),TreeNode(2,None,TreeNode(3)))
+l1 = TreeNode(1,TreeNode(2,None,TreeNode(3)),TreeNode(2,None,TreeNode(3)))
 # l1 = TreeNode(1,TreeNode(2, TreeNode(2)),TreeNode(2,TreeNode(2)))
 
 # l1 = TreeNode(1,TreeNode(2, TreeNode(2)),TreeNode(2,None, TreeNode(2)))

@@ -18,7 +18,7 @@ print(maxDepth(l1))
 # Tree with depth of 5 
 l1 = TreeNode(1,TreeNode(2,TreeNode(4,TreeNode(5,TreeNode(6)))))
 print(maxDepth(l1))
-# Tree with depth of 3
+
 # l1 = TreeNode(1,TreeNode(2,TreeNode(4), TreeNode(5)),TreeNode(3))
 # l1 = TreeNode(1,TreeNode(2,None,TreeNode(3)),TreeNode(2,None,TreeNode(3)))
 # l1 = TreeNode(1,TreeNode(2, TreeNode(2)),TreeNode(2,TreeNode(2)))
