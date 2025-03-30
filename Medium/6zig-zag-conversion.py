@@ -1,3 +1,6 @@
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+# ZigZag Conversion
 def convert(s, numRows):
     if numRows == 1 or numRows>=len(s): 
         return s
