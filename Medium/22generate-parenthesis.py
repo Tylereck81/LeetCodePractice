@@ -1,3 +1,5 @@
+# TIme Complexity: O(2^n)
+# Space Complexity: O(n)
 def generateParenthesis(n: int)->list[int]: 
     res = [] 
     def rec(left, right, s): 

@@ -1,4 +1,5 @@
 # TIme complexity: O(n^2)
+# Space complexity: O(n)
 # Pascal's Triangle
 def generate(numRows):
     if numRows == 1: 

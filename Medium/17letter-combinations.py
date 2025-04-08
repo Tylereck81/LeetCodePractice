@@ -1,3 +1,5 @@
+# TIme complexity: O(4^n)
+# Space complexity: O(n)
 def letterCombinations(digits):
     phone = { 
         2:['a','b','c'],
