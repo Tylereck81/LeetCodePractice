@@ -1,3 +1,5 @@
+# Time Complexity: O(n*log10(n))
+# Space Complexity: O(37): Because n <= 9999 constraint makes max sum of digits 37
 def countLargestGroup(n: int) -> int:
     d= {}
     largest_groups = 0
