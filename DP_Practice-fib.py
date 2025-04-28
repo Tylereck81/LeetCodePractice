@@ -6,6 +6,7 @@ def fib(n):
     
     return fib(n-1)+fib(n-2)
 
+# TOP DOWN APPROACH
 # When we incomportate MEMOIZATION TABLE, we add another base case to check if value is already in table to avoid recalculations
 # Due to the tree stack traversal of BFS, we go down all the way to fib(1) on left side and fill in MEMO with values we calculated 
 # Because of this, Time Complexity is now O(n) because we only calculate values ONCE and store in table 
